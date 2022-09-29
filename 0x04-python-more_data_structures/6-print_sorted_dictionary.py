@@ -1,18 +1,4 @@
- #!/usr/bin/python3
-
-def print_sorted_dictionary(a_dict):
-    """
-    print a dict in sorted order of keys
-    """
-    if a_dict is None:
-        return None
-    for key in sorted(a_dict.keys()):
-        print("{:s}: {}".format(key, a_dict[key]))
-
-
-if __name__ == '__main__':
-    a_dictionary = {
-        'language': "C", 'Number': 89,
-        'track': "Low level", 'ids': [1, 2, 3]
-    }
-    print_sorted_dictionary(a_dictionary)
+;w#!/usr/bin/python3
+def print_sorted_dictionary(a_dictionary):
+    for k, v in sorted(a_dictionary.items()):
+        print("{}: {}".format(k, v))q)
